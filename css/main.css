@@ -1,1 +1,256 @@
 /* Los estilos de tu proyecto */
+body{
+  margin:0;
+  padding:0;
+}
+
+
+.mob-nav {
+    background-color: #fff;
+    border: none;
+    width: auto;
+    height: 11vh;
+    margin: 0;
+}
+
+.logo-mob {
+
+    height: 4vh;
+}
+
+/* estilos para el navbar descktop*/
+.navbar .navbar-default .navbar-fixed-top {
+  border-style: none;
+}
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+
+.logo-nav{
+  height: 4vh;
+}
+
+/*imagen de fondo sección 1*/
+.first-image {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: 50% 93%;
+  height: 120vh;
+
+}
+
+/*cuadro amarillo con texto sección 1*/
+.yellow-bg  {
+  margin-top: 15%;
+  background-color: #f7b617;
+  width: auto;
+  height:auto;
+  color: white;
+}
+
+/* texto sección 1*/
+.text-section1{
+margin-left:10%;
+padding-top: 2%;
+display: inline-block;
+}
+
+#invitation{
+  display:inline-block;
+  margin-left:10%;
+  padding-top:4%;
+}
+
+.logo-white{
+  margin-bottom: 1rem;
+  align-self: center;
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+hr {
+    display: inline-block;
+    color: #fff;
+    width: 7rem;
+    height: -1rem;
+}
+
+/* !!!falta alinear el texto o bien en el centro de las lineas horizontales!!! 1*/
+
+
+.callToA-1 {
+  margin-top: 1.5%;
+  height: 3.5rem;
+  background-color: white;
+  color: black;
+  font-weight: 30;
+}
+
+
+/*estilos de la segunda sección*/
+
+.yellow  {
+  background-color: #f7b617;
+  height: 40rem;
+}
+
+.border-Box {
+    border-top: solid 1px #fff;
+    border-right: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-top: 3rem;
+    height: 35rem;
+}
+
+.iphone{
+  width:auto;
+  max-height: 25rem;
+  margin: 20% 10%;
+  margin-bottom: auto;
+}
+.img-responsive{
+  max-width: 70%;
+  max-height: 20rem;
+  display: block;
+  margin: auto auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.texto-promo{
+  margin-top: 5%;
+  margin-left: 8%;
+  color: #ffff;
+}
+
+/*estilos de la sección3*/
+
+.section3 {
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    height: 65vh;
+    background-position: 50% 50%;
+}
+
+.clarity{
+    background-color:rgba(0,0,0,0.5);
+    height: 65vh;
+    padding: 7%;
+}
+.clarity h2{
+  color: #ffff;
+}
+.some-text {
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 2%;
+}
+/*estilos sección 4 */
+.another{
+  width: auto;
+  height: auto;
+}
+.img-responsive .map{
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+.map {
+    background-color: #fff;
+
+    height: auto;
+    margin: 2%;
+    max-width: 100%;
+}
+
+.border-white-2 {
+    height: auto;
+    border: solid 1px #fff;
+    margin-top: 7rem;
+}
+
+.callToA-2{
+  background-color:rgba(#f7b617,.93);
+  color: #FFFF;
+}
+
+input {
+    width: 30rem;
+    height: 7rem;
+    background: #F7B617;
+    outline: none;
+    border: none;
+    padding-left: 3%;
+    vertical-align: 30%;
+
+}
+.tarifasT{
+  margin-top: 25%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFF;
+    height: 3rem;
+    background: #F7B617;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 1.5% 1%;
+
+}
+
+.border {
+    border-bottom: solid 1px #fff;
+}
+
+#map{
+
+}
+.gb-gray {
+    background-color: #2B2B2B;
+    width: 100%;
+    height: auto;
+}
+.footer{
+margin: 2% 2%;
+padding: 2% 2%;
+}
+
+.style-list {
+    list-style: none;
+    margin-left: 30%;
+}
+
+
+.icon {
+  margin-left: 4%;
+}
+.mobile-devices{
+  margin: 15% 10%;
+}
+
+.copyright{
+
+  height:3rem;
+  background-color:#000000;
+  text-align:left;
+  color:#FFFF;
+  padding: .5%;
+  font-size: 1rem;
+}
+
+
+
+@screen-sm-min
+.container{
+min-width: 416px;
+display: block;
+    width:inherit;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (8, 1fr);
+    grid-gap: 10px;
+}
